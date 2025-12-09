@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        @apply bg-accent dark:bg-primary text-primary dark:text-accent font-sans antialiased;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+}
+
+@layer components {
+
+    /* Buttons strictly using brand colors without transparency or mixing */
+    .btn-primary {
+        @apply px-6 py-3 bg-secondary hover:bg-primary text-accent font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-transparent;
+    }
+
+    .btn-secondary {
+        @apply px-6 py-3 bg-accent hover:bg-white text-secondary font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-secondary dark:border-transparent;
+    }
+
+    .btn-accent {
+        @apply px-6 py-3 bg-primary hover:bg-secondary text-accent font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg;
+    }
+
+    .section-container {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+    }
+
+    .card {
+        @apply bg-white dark:bg-secondary rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-2xl hover:transform hover:scale-105 border border-gray-100 dark:border-gray-900;
+    }
+}
+
+@layer utilities {
+    .animation-delay-200 {
+        animation-delay: 200ms;
+    }
+
+    .animation-delay-400 {
+        animation-delay: 400ms;
+    }
+
+    .animation-delay-600 {
+        animation-delay: 600ms;
+    }
+}

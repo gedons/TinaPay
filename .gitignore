@@ -1,0 +1,42 @@
+# Nuxt build folder
+.nuxt/
+dist/
+output/
+
+# Node modules
+node_modules/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local cache
+.cache/
+*.local
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+Thumbs.db
+$RECYCLE.BIN/
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Editor metadata
+*.swp
+*.swo
+*~
