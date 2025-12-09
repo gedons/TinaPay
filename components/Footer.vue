@@ -5,8 +5,8 @@
         <!-- Brand Section -->
         <div class="col-span-1 md:col-span-2">
           <div class="flex items-center space-x-2 mb-4">
-            <img src="/logo.svg" alt="TinaPay Logo" class="h-10 w-auto" />
-            <span class="text-2xl font-bold">TinaPay</span>
+            <img src="/logo.png" alt="TinaPay Logo" class="h-10 w-auto" />
+            <!-- <span class="text-2xl font-bold">TinaPay</span> -->
           </div>
           <p class="text-accent mb-4">
             Seamless payment solutions for modern businesses. Accept payments instantly with bank-grade security.
