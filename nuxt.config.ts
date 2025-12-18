@@ -41,7 +41,7 @@ export default defineNuxtConfig({
                 { name: 'theme-color', content: '#161503' }
             ],
             link: [
-                { rel: 'icon', type: 'image/x-icon', href: '/TINAPAY4.ico' },
+                { rel: 'icon', type: 'image/png', href: '/TINAPAY4.png' },
                 { rel: 'canonical', href: 'https://tinapay.com' },
                 // Google Fonts - DM Sans
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },

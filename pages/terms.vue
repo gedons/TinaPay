@@ -73,6 +73,8 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from 'nuxt/app';
+
 useHead({
   title: 'Terms of Service - TinaPay',
   meta: [
